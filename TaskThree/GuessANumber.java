@@ -37,15 +37,5 @@ public class GuessANumber {
             scanner.next();
             makeAGuess();
         }
-
-	// Create a Scanner object   	 
-        // use hasNextDouble to check if input is numeric, 
-        // if so...
-	// Read user input
-        // Compare it with the random number
-        // Let the user know the result of the comparison
-        // Let the user try again by calling this method recursively
-        // Help the user by revealing wether the guess was lower or higher than the target number
-        // if input was not numeric show an error message and call this method recursively
     }
 }
